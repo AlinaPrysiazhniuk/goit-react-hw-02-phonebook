@@ -3,7 +3,7 @@ import { ContactForm } from './ContactForm/ContactForm';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 import { nanoid } from 'nanoid';
-import './App.module.css';
+import css from './App.module.css';
 
 export class App extends Component {
   state = {
@@ -55,7 +55,7 @@ export class App extends Component {
     const { filter } = this.state;
     return (
       <section>
-        <h1>Phonebook</h1>
+        <h1 className={css.title}>Phonebook</h1>
         <ContactForm onSubmit={this.formSubmit} />
         <h2>Contacts</h2>
         <Filter filter={filter} changeFilterInput={this.changeFilterInput} />

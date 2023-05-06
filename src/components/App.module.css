@@ -8,3 +8,7 @@ section {
     background-color: rgba(178 146 171 / 50%);
     box-shadow: 0px 0px 8px 0px #33333347;
   }
+
+  .title {
+    margin-bottom: 0;
+  }
