@@ -3,10 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border-radius: 10px; */
     padding: 15px;
-    /* background-color: rgba(178 146 171 / 50%); */
-    /* box-shadow: 0px 0px 8px 0px #33333347; */
+ 
   }
   
   .input {
@@ -36,6 +34,5 @@
   }
   
  .button_add:hover {
-    transform: scale(1.1);
     background-color: rgba(79, 183, 93, 0.2);
   }
